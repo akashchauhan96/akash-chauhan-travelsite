@@ -1,1 +1,44 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.site-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding: 1rem 5rem 0.5rem;
+}
+
+.site-header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-title {
+  color: #335576;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 0.1rem 0.75rem;
+}
+.nav__link--active {
+  border-bottom: 0.25rem solid #db7a4e;
+}/*# sourceMappingURL=main.css.map */

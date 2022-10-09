@@ -3,7 +3,7 @@
 
 .recommendations {
   background-color: $secondary-background-color;
-  padding: 2.5rem 3rem 5rem;
+  padding: 4rem 5rem 5rem;
 
   &__title {
     color: $primary-text-color;
@@ -13,7 +13,7 @@
 }
 
 .destination-cards-container {
-  margin: 0 8rem;
+  margin: 0 6rem;
   display: flex;
   gap: 2.5rem;
 }

@@ -4,11 +4,14 @@
 .header-container {
   padding: 1rem 5rem 0.5rem;
   background-color: $secondary-background-color;
+  position: fixed;
+  width: 100%;
 }
 
 .site-header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .logo-title {

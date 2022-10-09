@@ -5,19 +5,19 @@
   padding: 1rem 5rem 0.5rem;
   background-color: $secondary-background-color;
   position: fixed;
-  width: 100%;
+  width: inherit;
 }
 
 .site-header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
-.logo-title {
+.logo-title__link {
   color: $primary-text-color;
   font-size: $h3;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .nav {

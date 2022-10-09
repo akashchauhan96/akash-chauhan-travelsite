@@ -111,10 +111,18 @@ body {
 }
 
 .destination {
-  background-image: url(../../assets/hawaii.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
+}
+.destination--hawaii {
+  background-image: url(../../assets/hawaii.jpg);
+}
+.destination--iceland {
+  background-image: url(../../assets/iceland.jpg);
+}
+.destination--greece {
+  background-image: url(../../assets/greece.jpg);
 }
 
 .destination__container {

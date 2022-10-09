@@ -2,10 +2,21 @@
 @use "../partials/variables" as *;
 
 .destination {
-  background-image: url(../../assets/hawaii.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
+
+  &--hawaii {
+    background-image: url(../../assets/hawaii.jpg);
+  }
+
+  &--iceland {
+    background-image: url(../../assets/iceland.jpg);
+  }
+
+  &--greece {
+    background-image: url(../../assets/greece.jpg);
+  }
 }
 
 .destination {

@@ -1,0 +1,72 @@
+@use "../partials/global" as *;
+@use "../partials/variables" as *;
+
+.footer {
+  background-color: $primary-background-color;
+}
+
+.footer__container {
+  padding: 3rem 13rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  &__title {
+    font-size: $h2;
+    margin-bottom: 2rem;
+    color: $primary-text-color;
+  }
+  &__subtitle {
+    font-size: $footer-subtitles;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $secondary-text-color;
+  }
+  &__email-address {
+    font-size: $paragraph;
+  }
+}
+
+.hours-open {
+  &__title {
+    font-size: $h2;
+    margin-bottom: 2rem;
+    color: $primary-text-color;
+  }
+  &__container {
+    display: flex;
+    gap: 2rem;
+  }
+  &__subtitle {
+    font-size: $footer-subtitles;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $secondary-text-color;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-size: $h2;
+    color: $primary-text-color;
+  }
+
+  &__icons-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__icons {
+    width: 2rem;
+    vertical-align: bottom;
+
+    &--size-adjust {
+      width: 1rem;
+    }
+  }
+}

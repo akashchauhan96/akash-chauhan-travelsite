@@ -1,4 +1,6 @@
 @use "./partials/global" as *;
 @use "./partials/variables" as *;
+@use "./components/header" as *;
+@use "./components/footer" as *;
 @use "./components/heromain" as *;
 @use "./components/recommendationsmain" as *;

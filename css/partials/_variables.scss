@@ -1,5 +1,4 @@
-//color settings
-
+//Common color settings for all pages
 $primary-text-color: #335576;
 $secondary-text-color: #db7a4e;
 $primary-background-color: #fefaf5;
@@ -13,9 +12,13 @@ $nav-links: 1rem;
 $paragraph: 1rem;
 $footer-subtitles: 0.75rem;
 
-//Variables exclusive to home page
+//Variables and colors exclusive to home page
 $h1: 2.5rem;
 $button: #fff;
 $link: #fff;
 
-//Variables exclusive to destination pages
+//Variables and colors exclusive to destination pages
+$h1-destination: 4rem;
+$h4-destination: 1.125rem;
+$primary-destination-color: #fff;
+$secondary-destination-color: #000;

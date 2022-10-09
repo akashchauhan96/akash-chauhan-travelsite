@@ -1,1 +1,150 @@
-/*# sourceMappingURL=destination.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.site-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding: 1rem 5rem 0.5rem;
+  background-color: #fff;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-title {
+  color: #335576;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 0.1rem 0.75rem;
+}
+.nav__link--active {
+  border-bottom: 0.25rem solid #db7a4e;
+}
+
+.footer {
+  background-color: #fefaf5;
+}
+
+.footer__container {
+  padding: 3rem 13rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #335576;
+}
+.contact__subtitle {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #db7a4e;
+}
+.contact__email-address {
+  font-size: 1rem;
+}
+
+.hours-open__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #335576;
+}
+.hours-open__container {
+  display: flex;
+  gap: 2rem;
+}
+.hours-open__subtitle {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #db7a4e;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social__title {
+  font-size: 1.5rem;
+  color: #335576;
+}
+.social__icons-container {
+  display: flex;
+  gap: 2rem;
+}
+.social__icons {
+  width: 2rem;
+  vertical-align: bottom;
+}
+.social__icons--size-adjust {
+  width: 1rem;
+}
+
+.destination {
+  background-image: url(../../assets/hawaii.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.destination__container {
+  padding: 3rem 5rem 8rem;
+}
+.destination__title {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.destination__itinerary-container {
+  margin: 0 8.5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.daily-itinerary-card {
+  padding: 1em 1rem 3rem;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  flex: 1;
+}
+.daily-itinerary-card__title {
+  font-size: 1.25rem;
+  border-bottom: 0.2rem solid #000;
+  margin-bottom: 2rem;
+}
+.daily-itinerary-card__activity {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 1.25rem 0;
+  padding: 0.75rem 0;
+  background-color: #fefaf5;
+}/*# sourceMappingURL=destination.css.map */

@@ -1,0 +1,38 @@
+@use "../partials/global" as *;
+@use "../partials/variables" as *;
+
+.hero {
+  background-color: $primary-background-color;
+
+  &__position-container {
+    padding: 3rem 5rem;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    color: $primary-text-color;
+  }
+
+  &__slogan-title {
+    font-size: $h1;
+    margin-bottom: 2rem;
+  }
+
+  &__slogan-description {
+    font-size: $paragraph;
+    margin-bottom: 2rem;
+  }
+
+  &__button {
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color: $button;
+    padding: 0.75rem 2.5rem;
+    background-color: $secondary-text-color;
+    border-radius: 2rem;
+  }
+
+  &__image {
+    width: 33%;
+  }
+}

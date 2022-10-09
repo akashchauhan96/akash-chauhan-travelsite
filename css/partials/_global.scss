@@ -61,7 +61,7 @@ body {
 .footer__container {
   padding: 3rem 13rem;
   display: flex;
-  gap: 5rem;
+  justify-content: space-between;
 }
 
 .contact {
@@ -96,5 +96,30 @@ body {
     text-transform: uppercase;
     margin-bottom: 1rem;
     color: $secondary-text-color;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-size: $h2;
+    color: $primary-text-color;
+  }
+
+  &__icons-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__icons {
+    width: 2rem;
+    vertical-align: bottom;
+
+    &--size-adjust {
+      width: 1rem;
+    }
   }
 }

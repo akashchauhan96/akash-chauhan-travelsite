@@ -6,7 +6,7 @@
 }
 
 .footer__container {
-  padding: 3rem 13rem;
+  padding: 3rem 11rem;
   display: flex;
   justify-content: space-between;
 }
@@ -14,13 +14,13 @@
 .contact {
   &__title {
     font-size: $h2;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: $primary-text-color;
   }
   &__subtitle {
     font-size: $footer-subtitles;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     color: $secondary-text-color;
   }
   &__email-address {
@@ -31,7 +31,7 @@
 .hours-open {
   &__title {
     font-size: $h2;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: $primary-text-color;
   }
   &__container {
@@ -41,7 +41,7 @@
   &__subtitle {
     font-size: $footer-subtitles;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     color: $secondary-text-color;
   }
 }
@@ -62,11 +62,8 @@
   }
 
   &__icons {
-    width: 2rem;
+    height: 1.5rem;
     vertical-align: bottom;
-
-    &--size-adjust {
-      width: 1rem;
-    }
+    object-fit: contain;
   }
 }

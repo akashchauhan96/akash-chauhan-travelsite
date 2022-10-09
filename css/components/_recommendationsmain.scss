@@ -1,0 +1,41 @@
+@use "../partials/global" as *;
+@use "../partials/variables" as *;
+
+.recommendations {
+  background-color: $secondary-background-color;
+  padding: 2.5rem 5rem 5rem;
+
+  &__title {
+    color: $primary-text-color;
+    margin-bottom: 2rem;
+    font-size: $h2;
+  }
+}
+
+.destination-cards-container {
+  margin: 0 8rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.destination-card {
+  &__image-container {
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    vertical-align: bottom;
+    border: 1px solid rgba($color: #000, $alpha: 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba($color: #000, $alpha: 0.2);
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.25rem;
+    font-size: $h2;
+    color: $link;
+  }
+}

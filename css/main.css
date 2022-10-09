@@ -137,4 +137,38 @@ body {
 }
 .hero__image {
   width: 33%;
+}
+
+.recommendations {
+  background-color: #fff;
+  padding: 2.5rem 5rem 5rem;
+}
+.recommendations__title {
+  color: #335576;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.destination-cards-container {
+  margin: 0 8rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.destination-card__image-container {
+  position: relative;
+}
+.destination-card__image {
+  width: 100%;
+  vertical-align: bottom;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.destination-card__title {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.25rem;
+  font-size: 1.5rem;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

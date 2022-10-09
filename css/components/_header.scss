@@ -1,19 +1,19 @@
 @use "../partials/global" as *;
 @use "../partials/variables" as *;
 
-.header-container {
+.header {
   padding: 1rem 5rem 0.5rem;
   background-color: $secondary-background-color;
   position: fixed;
   width: inherit;
 }
 
-.site-header {
+.header__container {
   display: flex;
   justify-content: space-between;
 }
 
-.logo-title__link {
+.header__logo-link {
   color: $primary-text-color;
   font-size: $h3;
   font-weight: 700;

@@ -14,19 +14,19 @@ body {
   margin: 0 auto;
 }
 
-.header-container {
+.header {
   padding: 1rem 5rem 0.5rem;
   background-color: #fff;
   position: fixed;
   width: inherit;
 }
 
-.site-header {
+.header__container {
   display: flex;
   justify-content: space-between;
 }
 
-.logo-title__link {
+.header__logo-link {
   color: #335576;
   font-size: 1.25rem;
   font-weight: 700;

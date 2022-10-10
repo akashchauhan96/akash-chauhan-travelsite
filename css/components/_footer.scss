@@ -24,6 +24,7 @@
   }
   &__email-address {
     font-size: $paragraph;
+    color: $primary-text-color;
   }
 }
 
@@ -42,6 +43,9 @@
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     color: $secondary-text-color;
+  }
+  &__duration {
+    color: $primary-text-color;
   }
 }
 
